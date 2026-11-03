@@ -3,3 +3,4 @@ import os
 STRIPE_SECRET_KEY = os.environ.get("STRIPE_SECRET_KEY")
 STRIPE_PUBLIC_KEY = os.environ.get("STRIPE_PUBLIC_KEY")
 os.environ.setdefault('STRIPE_WH_SECRET', 'whsec_bda56898953351c39b866d5690e77f941765dd64799f5338d40e16509db59edc')
+os.environ.setdefault('DEVELOPMENT', '1')
